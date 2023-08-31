@@ -1,0 +1,49 @@
+.loginform {
+    text-align: center;
+}
+
+.main-div {
+    background-color: black;
+    margin: 6rem auto 7px;
+    /* max-width: 40%; */
+    padding: 50px 50px 70px 70px;
+    border-radius: 15px;
+}
+
+.panel {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.panel p {
+
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+@media screen and (max-width:400px) {
+    .main-div .input-group-prepend {
+        display: block;
+        /* display: flex; */
+
+    }
+
+    .main-div .input-group-prepend .input-group-text {
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .main-div {
+        max-width: 40%;
+    }
+
+}

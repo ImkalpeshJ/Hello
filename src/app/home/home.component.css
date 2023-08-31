@@ -1,0 +1,9 @@
+table{
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    border-style: dashed;
+    border-color: black;
+}
